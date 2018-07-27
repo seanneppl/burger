@@ -1,5 +1,5 @@
-#Burger
-###Full stack burger database application
+# Burger
+### Full stack burger database application
 
 Burger is a full stack application that uses a simple ORM to interact with a database of burgers.
 
@@ -9,4 +9,4 @@ The main page allows users to add a burger to the database, using the user input
 The user can click on the burger burger layer to update the database and set the burgers 'devoured' status to false.
 moving it into the list.
 
-* Burger uses express, mySQL, handlebars, and JAWSdb.
+*Burger uses express, mySQL, handlebars, and JAWSdb.
