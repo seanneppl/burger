@@ -1,0 +1,56 @@
+<h1>Burger burger!</h1>
+
+<h2 id="burgerburger">Click the burger burger layer to eat it!</h2>
+
+<div id="eatMeDiv">
+    <div id="eatMe">
+
+        <div id="burgerTop"></div>
+
+        <div id="condiments">
+            {{#each burger}} {{#unless devoured}} 
+                <button class="devour" data-id="{{id}}" data-devoured="{{devoured}}">
+                    {{burger_name}}
+                </button>
+            {{/unless}} {{/each}}
+        </div>
+        
+        <div id="burgerBottom"></div>
+
+    </div>
+</div>
+
+<div id="newBurger">
+    <h2>Add a burger burger layer!</h2>
+    <form class="create-form">
+        
+        <div class="form-group">
+            
+            <label for="burger">Burger Type:</label>
+            <div id="ketchup"></div>
+            <div id="lettuce"></div>
+            <input type="text" id="burger" name="burgerType" placeholder="veggie burger">
+            <div id="cheese"></div>
+            <div id="meat"></div>
+        </div>
+
+        <button type="submit">Add Burger</button>
+    </form>
+</div>
+
+<div id="eatedMeDiv">
+    <div id="eatedMe">
+
+        <h2>Burger burgers you've eaten!</h2>
+
+        <ul>
+            {{#each burger}} {{#if devoured}}
+            <li>
+                {{burger_name}}
+            </li>
+            {{/if}} {{/each}}
+        </ul>
+    </div>
+</div>
+
+
