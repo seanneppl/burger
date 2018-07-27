@@ -1,9 +1,7 @@
 # Burger
 ### Full stack burger database application
 
-[Burger](https://burger-burger-sn.herokuapp.com/)
-
-Burger is a full stack application that uses a simple ORM to interact with a database of burgers.
+[Burger](https://burger-burger-sn.herokuapp.com/) is a full stack application that uses a simple ORM to interact with a database of burgers.
 
 The main page allows users to add a burger to the database, using the user input as its name and setting a default
 'devoured' status of false. The page displays each burger in the database on the page, either as a burger burger layer
